@@ -5,10 +5,24 @@ void main() {
 }
 
 bool canPlaceFlowers(List<int> flowerbed, int n) {
+  // 심어야 할 꽃의 개수가 없다면 바로 true 반환
+  if (n == 0) {
+    return true;
+  }
   // 꽃이 심어진 개수
   int flowerCount = 0;
   int length = flowerbed.length;
 
+// flowerbed 가 1개일 때
+  if (length == 1) {
+    if (flowerbed[0] == 0) {
+      flowerbed[0] = 1;
+      flowerCount++;
+    }
+    return flowerCount >= n ? true : false;
+  }
+
+  // flowerbed 가 2개 이상일 때
   // 첫번째 인덱스
   // 첫번째 인덱스와 두번째 인덱스에 꽃이 심어져 있지 않으면 첫번째에 꽃을 심는다.
   if (flowerbed[0] == 0 && flowerbed[1] == 0) {
