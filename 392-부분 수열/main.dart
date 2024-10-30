@@ -12,7 +12,7 @@ bool isSubsequence(String s, String t) {
   int tIndex = 0;
 
   // t 순회
-  for (int i = 0; i < t.length - 1; i++) {
+  while (sIndex < s.length && tIndex < t.length) {
     // s 와 t 를 하나씩 비교하여 같은 글자가 있으면 sIndex++
     if (s[sIndex] == t[tIndex]) {
       sIndex++;
