@@ -14,3 +14,5 @@
 
 2. 입력: s = "axc", t = "ahbgdc" 출력: false
 	설명: t에는 a -> x -> c 순서로 존재하지 않으므로 부분 수열이 아닙니다.
+
+참고: https://leetcode.com/problems/is-subsequence/description/?envType=study-plan-v2&envId=leetcode-75

@@ -15,3 +15,5 @@
 3. 입력: str1 = "LEET", str2 = "CODE" 출력: "" (공통 부분이 없음)
 
 4. 입력: str1 = "ABABABAB", str2 = "ABAB" 출력: "ABAB"
+
+참고: https://leetcode.com/problems/greatest-common-divisor-of-strings/description/?envType=study-plan-v2&envId=leetcode-75

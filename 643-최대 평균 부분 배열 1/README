@@ -8,3 +8,5 @@
 
 2. 입력: nums = [5], k = 1 출력: 5.00000
 	설명: 배열 전체가 길이 1인 부분 배열이므로 그 평균값이 최대입니다.
+
+참고: https://leetcode.com/problems/maximum-average-subarray-i/description/?envType=study-plan-v2&envId=leetcode-75

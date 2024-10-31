@@ -12,3 +12,5 @@
 
 2. 입력: nums = [0] 출력: [0]
 	설명: 배열에 0만 존재할 경우 변하지 않습니다.
+
+참고: https://leetcode.com/problems/move-zeroes/description/?envType=study-plan-v2&envId=leetcode-75

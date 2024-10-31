@@ -26,3 +26,4 @@
 
 3. 입력: candies = [12,1,12], extraCandies = 10 출력: [true, false, true]
 
+참고: https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/?envType=study-plan-v2&envId=leetcode-75

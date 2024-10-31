@@ -16,3 +16,5 @@
 
 2. 입력: flowerbed = [1,0,0,0,1], n = 2 출력: false
 	설명: 2번째 위치에 하나의 꽃만 심을 수 있기 때문에 두 개의 꽃을 심을 수 없습니다.
+
+참고: https://leetcode.com/problems/can-place-flowers/description/?envType=study-plan-v2&envId=leetcode-75
